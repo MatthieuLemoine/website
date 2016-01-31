@@ -1,0 +1,33 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Just a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd public && npm install && cd -",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthieuLemoine/website.git"
+  },
+  "keywords": [
+    "website",
+    "matthieu",
+    "lemoine",
+    "MatthieuLemoine"
+  ],
+  "author": "MatthieuLemoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthieuLemoine/website/issues"
+  },
+  "homepage": "https://github.com/MatthieuLemoine/website#readme",
+  "dependencies": {
+    "finalhandler": "^0.4.1",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "serve-static": "^1.10.2"
+  }
+}
