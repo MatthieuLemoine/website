@@ -4,7 +4,6 @@
   "description": "Just a website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "cd public && npm install && cd -",
     "start": "node index.js"
   },

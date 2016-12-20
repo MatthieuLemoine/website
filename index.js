@@ -6,7 +6,7 @@ var finalhandler = require('finalhandler');
 var serveStatic = require('serve-static');
 
 var DIRECTORY = __dirname + '/public';
-var PORT      = 3333;
+var PORT      = process.env.PORT || 3333;
 
 var serve = serveStatic(DIRECTORY);
 
