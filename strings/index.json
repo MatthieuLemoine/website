@@ -1,0 +1,72 @@
+{
+  "firstname" : "Matthieu",
+  "lastname"  : "Lemoine",
+  "position"  : "Full-stack developer",
+  "email"     : "ml.94230@gmail.com",
+  "location"  : "Lille, France",
+  "sites"     : [
+    {
+      "label" : "matthieulemoine.com",
+      "link" : "https://matthieulemoine.com"
+    },
+    {
+      "label" : "github.com/MatthieuLemoine",
+      "link" : "https://github.com/MatthieuLemoine"
+    },
+    {
+      "label" : "twitter.com/__malem",
+      "link" : "https://twitter.com/__malem"
+    }
+  ],
+  "expertise" : {
+    "title" : "expertise",
+    "items" : [
+      "Web development",
+      "Mobile development"
+    ]
+  },
+  "profile"    : {
+    "title" : "Profile & Objective",
+    "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac. Fusce consectetur, purus ut aliquam molestie, nisl tellus tincidunt nunc, et pretium ipsum leo sit amet enim. Etiam varius odio sed felis tincidunt, vel porta ante mollis. Nunc porta felis vitae luctus convallis. Quisque eget feugiat mi. Sed vel mi ac libero fermentum dictum ac sit amet tortor. Curabitur commodo leo sed tristique tempor. Nam aliquet rhoncus cursus. Aenean volutpat urna urna, quis porta eros tincidunt et. Ut eget neque tincidunt, eleifend lacus eu, ullamcorper ipsum. Sed rhoncus volutpat dui. Morbi commodo elementum est, ut egestas nisl pulvinar sed. Fusce interdum felis sit amet risus iaculis, vel viverra metus tincidunt. Donec quis ultrices erat, in pellentesque nisi. Vestibulum at dui in mauris lacinia euismod. Nullam ultrices congue ornare."
+  },
+  "education"  : {
+    "title" : "Education",
+    "items" : [
+      {
+        "subtitle"    : "Master's degree in engineering",
+        "title"       : "Ecole Centrale de Lille",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac.",
+        "startYear"   : "2013",
+        "endYear"     : "2016"
+      }
+    ]
+  },
+  "experience" : {
+    "title" : "Experience",
+    "items" : [
+      {
+        "subtitle"    : "Yumii",
+        "title"       : "Full-stack developer",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac. Fusce consectetur, purus ut aliquam molestie, nisl tellus tincidunt nunc, et pretium ipsum leo sit amet enim. Etiam varius odio sed felis tincidunt, vel porta ante mollis. Nunc porta felis vitae luctus convallis.",
+        "startYear"   : "2016",
+        "endYear"     : "2017"
+      },
+      {
+        "subtitle"    : "Smile",
+        "title"       : "Full-stack developer",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac. Fusce consectetur, purus ut aliquam molestie, nisl tellus tincidunt nunc, et pretium ipsum leo sit amet enim. Etiam varius odio sed felis tincidunt, vel porta ante mollis. Nunc porta felis vitae luctus convallis.",
+        "startYear"   : "2015",
+        "endYear"     : "2016"
+      }
+    ]
+  },
+  "skills" : {
+    "title" : "Technical skills",
+    "items" : [
+      "Node.js",
+      "React",
+      "React Native",
+      "Electron"
+    ]
+  }
+}

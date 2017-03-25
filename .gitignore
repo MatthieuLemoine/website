@@ -1,5 +1,4 @@
 node_modules
 .git
-.jshintrc
 *.log
-process.json
+.next
