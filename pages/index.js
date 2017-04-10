@@ -7,7 +7,7 @@ import theme from '../theme';
 const Container = styled.div`
   display        : flex;
   flex-direction : row;
-  height         : 100vh;
+  min-height     : 100vh;
 `;
 
 export default () =>

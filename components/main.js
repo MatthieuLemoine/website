@@ -24,7 +24,18 @@ const Main = ({ theme }) =>
   </Container>;
 
 Main.propTypes = {
-  theme : React.PropTypes.object.isRequired,
+  theme : React.PropTypes.shape({
+    colors : React.PropTypes.shape({
+      text            : React.PropTypes.string.isRequired,
+      sideBg          : React.PropTypes.string.isRequired,
+      name            : React.PropTypes.string.isRequired,
+      skillsBg        : React.PropTypes.string.isRequired,
+      subtitle        : React.PropTypes.string.isRequired,
+      line            : React.PropTypes.string.isRequired,
+      educationDates  : React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+      experienceDates : React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+    }),
+  }).isRequired,
 };
 
 export default withTheme(Main);

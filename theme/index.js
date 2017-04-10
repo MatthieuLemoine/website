@@ -6,13 +6,17 @@ export default {
     skillsBg        : '#F5F4EF',
     subtitle        : '#B1D2C1',
     line            : '#727272',
+    skillIcon       : '#727272',
     educationDates  : [
       '#CCCCCC',
       '#919191',
     ],
     experienceDates : [
-      '#C0E8DF',
+      '#c0ddd7',
       '#AAD1C9',
+      '#73b3a6',
+      '#4f9385',
+      '#49887b',
     ],
   },
 };

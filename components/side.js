@@ -20,6 +20,12 @@ const Group = styled.div`
   margin         : 30px 0;
 `;
 
+const Image = styled.img`
+  width         : 200px;
+  border-radius : 100px;
+  margin-bottom : 20px;
+`;
+
 const Name = styled.div`
   font-size     : 30px;
   color         : ${props => props.theme.colors.name};
@@ -66,6 +72,7 @@ const informations = [
 const Side = () =>
   <Container>
     <Group>
+      <Image src="/static/photo-small.png" />
       <Name>
         <div>{strings.firstname.toUpperCase()}</div>
         <div>{strings.lastname.toUpperCase()}</div>

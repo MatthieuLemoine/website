@@ -27,7 +27,7 @@
   },
   "profile"    : {
     "title" : "Profile & Objective",
-    "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac. Fusce consectetur, purus ut aliquam molestie, nisl tellus tincidunt nunc, et pretium ipsum leo sit amet enim. Etiam varius odio sed felis tincidunt, vel porta ante mollis. Nunc porta felis vitae luctus convallis. Quisque eget feugiat mi. Sed vel mi ac libero fermentum dictum ac sit amet tortor. Curabitur commodo leo sed tristique tempor. Nam aliquet rhoncus cursus. Aenean volutpat urna urna, quis porta eros tincidunt et. Ut eget neque tincidunt, eleifend lacus eu, ullamcorper ipsum. Sed rhoncus volutpat dui. Morbi commodo elementum est, ut egestas nisl pulvinar sed. Fusce interdum felis sit amet risus iaculis, vel viverra metus tincidunt. Donec quis ultrices erat, in pellentesque nisi. Vestibulum at dui in mauris lacinia euismod. Nullam ultrices congue ornare."
+    "content" : "I'm a full-stack Javascript Developer. I love Open Source, NodeJS, React and React Native."
   },
   "education"  : {
     "title" : "Education",
@@ -35,7 +35,7 @@
       {
         "subtitle"    : "Master's degree in engineering",
         "title"       : "Ecole Centrale de Lille",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac.",
+        "description" : "Top 10 french engineering school. Major in IT. Web and Mobile developer at the school's Junior Entreprise.",
         "startYear"   : "2013",
         "endYear"     : "2016"
       }
@@ -47,16 +47,37 @@
       {
         "subtitle"    : "Yumii",
         "title"       : "Full-stack developer",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac. Fusce consectetur, purus ut aliquam molestie, nisl tellus tincidunt nunc, et pretium ipsum leo sit amet enim. Etiam varius odio sed felis tincidunt, vel porta ante mollis. Nunc porta felis vitae luctus convallis.",
+        "description" : "Development of a web application, mobile applications and a companion robot named Cutii. Technologies : React, Redux, React Native, NodeJS, WebRTC, Electron.",
         "startYear"   : "2016",
         "endYear"     : "2017"
       },
       {
         "subtitle"    : "Smile",
-        "title"       : "Full-stack developer",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nulla mauris, et ornare massa pharetra ac. Fusce consectetur, purus ut aliquam molestie, nisl tellus tincidunt nunc, et pretium ipsum leo sit amet enim. Etiam varius odio sed felis tincidunt, vel porta ante mollis. Nunc porta felis vitae luctus convallis.",
+        "title"       : "Apprentice IT engineer",
+        "description" : "One year apprenticeship developing Ionic mobile and Java applications. Technologies : Ionic, Angular, Java.",
         "startYear"   : "2015",
         "endYear"     : "2016"
+      },
+      {
+        "subtitle"    : "Movienight",
+        "title"       : "Full-stack developer",
+        "description" : "Development of the Movienight mobile application, back-end and back-office. Technologies : Ionic, Angular, NodeJS, CouchDB.",
+        "startYear"   : "2016",
+        "endYear"     : "2016"
+      },
+      {
+        "subtitle"    : "Dside",
+        "title"       : "Co-founder",
+        "description" : "Co-founding and development of the Dside mobile applications for both iOS and Android. Technologies : Android, Swift, NodeJS.",
+        "startYear"   : "2015",
+        "endYear"     : "2016"
+      },
+      {
+        "subtitle"    : "Worldline",
+        "title"       : "Mobile developer intern",
+        "description" : "3 months internship as a mobile developer. Development of a contact-less payment application. Technologies : Android, Swift, iBeacon",
+        "startYear"   : "2015",
+        "endYear"     : "2015"
       }
     ]
   },
@@ -66,7 +87,8 @@
       "Node.js",
       "React",
       "React Native",
-      "Electron"
+      "Electron",
+      "WebRTC"
     ]
   }
 }
