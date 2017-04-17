@@ -3,6 +3,7 @@ import styled, { withTheme } from 'styled-components';
 import Profile from './profile';
 import Story from './story';
 import Skills from './skills';
+import Credits from './credits';
 import strings from '../strings';
 
 const Container = styled.div`
@@ -21,6 +22,7 @@ const Main = ({ theme }) =>
     <Story colors={theme.colors.educationDates} {...strings.education} icon="graduation-cap" />
     <Story colors={theme.colors.experienceDates} {...strings.experience} icon="briefcase" />
     <Skills {...strings.skills} />
+    <Credits {...strings.credits} />
   </Container>;
 
 Main.propTypes = {

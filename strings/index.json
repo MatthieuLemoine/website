@@ -4,20 +4,14 @@
   "position"  : "Full-stack developer",
   "email"     : "ml.94230@gmail.com",
   "location"  : "Lille, France",
-  "sites"     : [
-    {
-      "label" : "matthieulemoine.com",
-      "link" : "https://matthieulemoine.com"
-    },
-    {
-      "label" : "github.com/MatthieuLemoine",
-      "link" : "https://github.com/MatthieuLemoine"
-    },
-    {
-      "label" : "twitter.com/__malem",
-      "link" : "https://twitter.com/__malem"
-    }
-  ],
+  "github"    : {
+    "label" : "MatthieuLemoine",
+    "link"  : "https://github.com/MatthieuLemoine"
+  },
+  "twitter"    : {
+    "label" : "@__malem",
+    "link"  : "https://twitter.com/__malem"
+  },
   "expertise" : {
     "title" : "expertise",
     "items" : [
@@ -88,7 +82,12 @@
       "React",
       "React Native",
       "Electron",
-      "WebRTC"
+      "WebRTC",
+      "RethinkDB"
     ]
+  },
+  "credits" : {
+    "label"        : "Powered by",
+    "technologies" : ["Next.js", "React", "styled-components", "Font Awesome"]
   }
 }
