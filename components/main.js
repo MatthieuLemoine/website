@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 import Profile from './profile';
 import Story from './story';
@@ -26,16 +27,16 @@ const Main = ({ theme }) =>
   </Container>;
 
 Main.propTypes = {
-  theme : React.PropTypes.shape({
-    colors : React.PropTypes.shape({
-      text            : React.PropTypes.string.isRequired,
-      sideBg          : React.PropTypes.string.isRequired,
-      name            : React.PropTypes.string.isRequired,
-      skillsBg        : React.PropTypes.string.isRequired,
-      subtitle        : React.PropTypes.string.isRequired,
-      line            : React.PropTypes.string.isRequired,
-      educationDates  : React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
-      experienceDates : React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+  theme : PropTypes.shape({
+    colors : PropTypes.shape({
+      text            : PropTypes.string.isRequired,
+      sideBg          : PropTypes.string.isRequired,
+      name            : PropTypes.string.isRequired,
+      skillsBg        : PropTypes.string.isRequired,
+      subtitle        : PropTypes.string.isRequired,
+      line            : PropTypes.string.isRequired,
+      educationDates  : PropTypes.arrayOf(PropTypes.string).isRequired,
+      experienceDates : PropTypes.arrayOf(PropTypes.string).isRequired,
     }),
   }).isRequired,
 };

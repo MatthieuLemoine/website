@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -39,9 +40,9 @@ const IconInfo = ({ icon, labels, links }) =>
   </Container>;
 
 IconInfo.propTypes = {
-  icon   : React.PropTypes.string.isRequired,
-  labels : React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
-  links  : React.PropTypes.arrayOf(React.PropTypes.string),
+  icon   : PropTypes.string.isRequired,
+  labels : PropTypes.arrayOf(PropTypes.string).isRequired,
+  links  : PropTypes.arrayOf(PropTypes.string),
 };
 
 export default IconInfo;

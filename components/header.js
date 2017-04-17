@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -23,7 +24,7 @@ const Title = styled.div`
 `;
 
 const Line = styled.div `
-  flex-grow        : 1; 
+  flex-grow        : 1;
   height           : 2px;
   background-color : ${props => props.theme.colors.line};
   margin-left      : 40px;
@@ -37,9 +38,9 @@ const Header = ({ icon, line, title }) =>
   </Container>;
 
 Header.propTypes = {
-  icon  : React.PropTypes.string,
-  line  : React.PropTypes.bool,
-  title : React.PropTypes.string,
+  icon  : PropTypes.string,
+  line  : PropTypes.bool,
+  title : PropTypes.string,
 };
 
 export default Header;

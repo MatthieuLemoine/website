@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -18,8 +19,8 @@ const Credits = ({ technologies, label }) =>
   </Container>;
 
 Credits.propTypes = {
-  technologies : React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
-  label        : React.PropTypes.string.isRequired,
+  technologies : PropTypes.arrayOf(PropTypes.string).isRequired,
+  label        : PropTypes.string.isRequired,
 };
 
 export default Credits;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Header from './header';
 
@@ -23,8 +24,8 @@ const Profile = ({ title, content }) =>
   </Container>;
 
 Profile.propTypes = {
-  title   : React.PropTypes.string.isRequired,
-  content : React.PropTypes.string.isRequired,
+  title   : PropTypes.string.isRequired,
+  content : PropTypes.string.isRequired,
 };
 
 export default Profile;

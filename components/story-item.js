@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -62,12 +63,12 @@ const StoryItem = ({ subtitle, title, description, startYear, endYear, color }) 
   </Container>;
 
 StoryItem.propTypes = {
-  subtitle    : React.PropTypes.string,
-  title       : React.PropTypes.string,
-  description : React.PropTypes.string,
-  startYear   : React.PropTypes.string,
-  endYear     : React.PropTypes.string,
-  color       : React.PropTypes.string,
+  subtitle    : PropTypes.string,
+  title       : PropTypes.string,
+  description : PropTypes.string,
+  startYear   : PropTypes.string,
+  endYear     : PropTypes.string,
+  color       : PropTypes.string,
 };
 
 export default StoryItem;

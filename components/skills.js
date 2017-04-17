@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Header from './header';
 
@@ -40,8 +41,8 @@ const Skills = ({ title, items }) =>
   </Container>;
 
 Skills.propTypes = {
-  title : React.PropTypes.string,
-  items : React.PropTypes.arrayOf(React.PropTypes.string),
+  title : PropTypes.string,
+  items : PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Skills;
