@@ -19,10 +19,10 @@ const Text = styled.div`
 `;
 
 const Link = styled.a`
-  font-size  : 12;
-  margin-top : 15px;
-  text-decoration: none;
-  color : white;
+  font-size       : 12;
+  margin-top      : 15px;
+  text-decoration : none;
+  color           : white;
 `;
 
 const IconInfo = ({ icon, labels, links }) =>
@@ -32,9 +32,9 @@ const IconInfo = ({ icon, labels, links }) =>
       links ?
       links.map(
         (link, index) =>
-          <Link key={link} href={link} target="_blank" >{labels[index].toUpperCase()}</Link>,
+          <Link key={link} href={link} target="_blank" >{labels[index]}</Link>,
       )
-      : labels.map(label => <Text key={label} >{label.toUpperCase()}</Text>)
+      : labels.map(label => <Text key={label} >{label}</Text>)
     }
   </Container>;
 

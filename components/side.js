@@ -17,7 +17,7 @@ const Group = styled.div`
   flex-direction : column;
   align-self     : stretch;
   align-items    : center;
-  margin         : 30px 0;
+  margin         : ${props => props.margin ? '30px 35px' : '30px 0'};
 `;
 
 const Image = styled.img`
@@ -36,15 +36,14 @@ const Name = styled.div`
 const Position = styled.div`
   color       : white;
   font-size   : 20px;
-  font-weight : bold;
 `;
 
 const Expertise = styled.div`
-  border: 2px solid white;
-  padding : 5px 15px;
-  font-size: 15px;
-  color : white;
-  margin-bottom: 30px;
+  border        : 2px solid white;
+  padding       : 5px 15px;
+  font-size     : 15px;
+  color         : white;
+  margin-bottom : 30px;
 `;
 
 const ExpertiseItem = styled.div`
@@ -63,9 +62,14 @@ const informations = [
     labels : [strings.location],
   },
   {
-    icon   : 'desktop',
-    labels : strings.sites.map(site => site.label),
-    links  : strings.sites.map(site => site.link),
+    icon   : 'github',
+    labels : [strings.github.label],
+    links  : [strings.github.link],
+  },
+  {
+    icon   : 'twitter',
+    labels : [strings.twitter.label],
+    links  : [strings.twitter.link],
   },
 ];
 
@@ -79,7 +83,7 @@ const Side = () =>
       </Name>
       <Position>{strings.position.toUpperCase()}</Position>
     </Group>
-    <Group>
+    <Group margin>
       {
         informations.map(info => <IconInfo key={info.icon} {...info} />)
       }
