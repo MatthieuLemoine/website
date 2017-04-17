@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/MatthieuLemoine/website#readme",
   "dependencies": {
-    "next": "^2.0.0-beta",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "styled-components": "^1.4.4"
+    "next": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.5"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
