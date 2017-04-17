@@ -28,6 +28,9 @@ const Subtitle = styled.div`
   font-size      : 18px;
   letter-spacing : 3px;
   color          : ${props => props.theme.colors.subtitle};
+  @media (max-width: 500px) {
+    font-size : 15px;
+  }
 `;
 
 const Title = styled.div`
@@ -36,18 +39,27 @@ const Title = styled.div`
   font-weight    : bold;
   letter-spacing : 3px;
   border-bottom  : 2px solid ${props => props.theme.colors.line};
+  @media (max-width: 500px) {
+    font-size : 17px;
+  }
 `;
 
 const DateContainer = styled.div`
   padding          : 10px;
   background-color : ${props => props.bgColor};
   color            : white;
+  @media (max-width: 500px) {
+    font-size : 14px;
+  }
 `;
 
 const Description = styled.div`
   font-size  : 15px;
   color      : ${props => props.theme.colors.text};
   text-align : justify;
+  @media (max-width: 500px) {
+    font-size : 14px;
+  }
 `;
 
 const StoryItem = ({ subtitle, title, description, startYear, endYear, color }) =>

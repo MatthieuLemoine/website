@@ -28,6 +28,15 @@ const Skill = styled.div`
   letter-spacing : 2px;
   margin         : 30px 0 0 0;
   width          : calc(100% * (1/3) - 1px);
+  @media (max-width: 500px) {
+    font-size : 16px;
+  }
+  @media (max-width: 450px) {
+    width : calc(100% * (1/2) - 1px);
+  }
+  @media (max-width: 300px) {
+    width : calc(100% - 1px);
+  }
 `;
 
 const Skills = ({ title, items }) =>

@@ -6,7 +6,7 @@ const Container = styled.div`
   align-self : stretch;
   text-align : end;
   color      : ${props => props.theme.colors.text};
-  margin     : 0 20px 10px 0;
+  margin     : 0 20px 10px 20px;
 `;
 
 const Credits = ({ technologies, label }) =>

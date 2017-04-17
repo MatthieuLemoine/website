@@ -13,6 +13,9 @@ const Container = styled.div`
 const Icon = styled.i`
   color     : ${props => props.theme.colors.text};
   font-size : 20px;
+  @media (max-width: 500px) {
+    font-size : 17px;
+  }
 `;
 
 const Title = styled.div`
@@ -21,6 +24,9 @@ const Title = styled.div`
   font-weight    : bold;
   margin-left    : ${props => props.withMargin ? '10px' : '0'};
   letter-spacing : 4px;
+  @media (max-width: 500px) {
+    font-size : 17px;
+  }
 `;
 
 const Line = styled.div `
@@ -28,6 +34,9 @@ const Line = styled.div `
   height           : 2px;
   background-color : ${props => props.theme.colors.line};
   margin-left      : 40px;
+  @media (max-width: 500px) {
+    margin-left : 10px;
+  }
 `;
 
 const Header = ({ icon, line, title }) =>

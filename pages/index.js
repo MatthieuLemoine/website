@@ -8,6 +8,9 @@ const Container = styled.div`
   display        : flex;
   flex-direction : row;
   min-height     : 100vh;
+  @media (max-width: 700px) {
+    flex-direction : column;
+  }
 `;
 
 export default () =>

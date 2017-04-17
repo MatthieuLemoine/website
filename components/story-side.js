@@ -16,6 +16,10 @@ const Container = styled.div`
   border-right-width  : 0;
   width               : 50px;
   margin-right        : 20px;
+  @media (max-width: 500px) {
+    width        : 40px;
+    margin-right : 10px;
+  }
 `;
 
 const Circle = styled.div`
@@ -31,11 +35,20 @@ const Circle = styled.div`
   align-items      : center;
   justify-content  : center;
   background-color : ${props => props.theme.colors.skillsBg};
+  @media (max-width: 500px) {
+    left          : -20px;
+    width         : 40px;
+    height        : 40px;
+    border-radius : 20px;
+  }
 `;
 
 const Icon = styled.i`
   font-size : 30px;
   color     : ${props => props.theme.colors.skillIcon};
+  @media (max-width: 500px) {
+    font-size : 18px;
+  }
 `;
 
 const StorySide = ({ icon }) =>
