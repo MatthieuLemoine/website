@@ -39,12 +39,12 @@ export default class MyDocument extends Document {
           <meta name="application-name" content="Matthieu Lemoine" />
           <meta name="msapplication-config" content="/static/favicons/browserconfig.xml" />
           <meta name="theme-color" content="#515151" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" async />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async />
         </Head>
         <body>
           <Main />
           <NextScript />
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         </body>
       </html>
     );

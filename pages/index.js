@@ -2,6 +2,8 @@ import styled, { ThemeProvider } from 'styled-components';
 import Side from '../components/side';
 import Main from '../components/main';
 import theme from '../theme';
+// Service Worker
+import './sw';
 
 
 const Container = styled.div`
