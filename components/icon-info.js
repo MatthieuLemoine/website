@@ -33,7 +33,7 @@ const IconInfo = ({ icon, labels, links }) =>
       links ?
       links.map(
         (link, index) =>
-          <Link key={link} href={link} target="_blank" >{labels[index]}</Link>,
+          <Link key={link} href={link} target="_blank" rel="noopener" >{labels[index]}</Link>,
       )
       : labels.map(label => <Text key={label} >{label}</Text>)
     }

@@ -77,7 +77,7 @@ const informations = [
 const Side = () =>
   <Container>
     <Group>
-      <Image src="/static/photo-small.png" />
+      <Image alt="Matthieu Lemoine" src="/static/photo-small.jpg" async />
       <Name>
         <div>{strings.firstname.toUpperCase()}</div>
         <div>{strings.lastname.toUpperCase()}</div>
