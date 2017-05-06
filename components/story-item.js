@@ -69,7 +69,7 @@ const StoryItem = ({ subtitle, title, description, startYear, endYear, color }) 
         <Subtitle>{subtitle.toUpperCase()}</Subtitle>
         <Title>{title.toUpperCase()}</Title>
       </Left>
-      <DateContainer bgColor={color} >{`${startYear}-${endYear}`}</DateContainer>
+      <DateContainer bgColor={color} >{endYear ? `${startYear}-${endYear}` : `Since ${startYear}`}</DateContainer>
     </Header>
     <Description>{description}</Description>
   </Container>;

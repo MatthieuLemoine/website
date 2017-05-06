@@ -42,8 +42,7 @@
         "subtitle"    : "Yumii",
         "title"       : "Full-stack developer",
         "description" : "Development of a web application, mobile applications and a companion robot named Cutii. Technologies : React, Redux, React Native, NodeJS, WebRTC, Electron.",
-        "startYear"   : "2016",
-        "endYear"     : "2017"
+        "startYear"   : "2016"
       },
       {
         "subtitle"    : "Smile",
