@@ -57,7 +57,7 @@ Story.propTypes = {
     title       : PropTypes.string.isRequired,
     description : PropTypes.string.isRequired,
     startYear   : PropTypes.string.isRequired,
-    endYear     : PropTypes.string.isRequired,
+    endYear     : PropTypes.string,
   })).isRequired,
   colors : PropTypes.arrayOf(PropTypes.string).isRequired,
   icon   : PropTypes.string.isRequired,
