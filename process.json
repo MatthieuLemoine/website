@@ -1,9 +1,0 @@
-{
-  "name": "website",
-  "script": "npm",
-  "scriptArgs": ["start"],
-  "log_file": "logs/combined.outerr.log",
-  "out_file": "logs/out.log",
-  "error_file": "logs/err.log",
-  "merge_logs": true
-}
