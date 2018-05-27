@@ -6,35 +6,44 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint **/*.js",
-    "lint:fix": "eslint **/*.js --fix"
+    "lint": "eslint .",
+    "precommit": "lint-staged",
+    "prettify": "prettier-eslint --write \"**/*.js*\" --list-different  --config .prettierrc"
   },
   "repository": "git+https://github.com/MatthieuLemoine/website.git",
-  "keywords": [
-    "website",
-    "matthieu",
-    "lemoine",
-    "MatthieuLemoine"
-  ],
+  "keywords": ["website", "matthieu", "lemoine", "MatthieuLemoine"],
   "author": "MatthieuLemoine",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MatthieuLemoine/website/issues"
   },
   "homepage": "https://github.com/MatthieuLemoine/website#readme",
+  "lint-staged": {
+    "linters": {
+      "*.js": ["prettier-eslint --write --config .prettierrc", "eslint --fix", "git add"],
+      "*.json": ["prettier-eslint --write --config .prettierrc", "git add"]
+    }
+  },
   "dependencies": {
-    "next": "^2.3.1",
-    "prop-types": "^15.5.8",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "styled-components": "^1.4.6",
-    "sw-precache-webpack-plugin": "^0.11.0"
+    "next": "^6.0.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "styled-components": "^3.3.0",
+    "sw-precache-webpack-plugin": "^0.11.5"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-styled-components": "^1.5.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.1.0",
+    "prettier": "^1.12.1",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }

@@ -1,92 +1,97 @@
 {
-  "firstname" : "Matthieu",
-  "lastname"  : "Lemoine",
-  "position"  : "Full-stack developer",
-  "email"     : "ml.94230@gmail.com",
-  "location"  : "Lille, France",
-  "github"    : {
-    "label" : "MatthieuLemoine",
-    "link"  : "https://github.com/MatthieuLemoine"
+  "firstname": "Matthieu",
+  "lastname": "Lemoine",
+  "position": "Full-stack developer",
+  "email": "ml.94230@gmail.com",
+  "location": "Lille, France",
+  "github": {
+    "label": "MatthieuLemoine",
+    "link": "https://github.com/MatthieuLemoine"
   },
-  "twitter"    : {
-    "label" : "@__malem",
-    "link"  : "https://twitter.com/__malem"
+  "twitter": {
+    "label": "@__malem",
+    "link": "https://twitter.com/__malem"
   },
-  "expertise" : {
-    "title" : "expertise",
-    "items" : [
-      "Web development",
-      "Mobile development"
-    ]
+  "expertise": {
+    "title": "expertise",
+    "items": ["Web development", "Mobile development"]
   },
-  "profile"    : {
-    "title" : "Profile & Objective",
-    "content" : "I'm a full-stack Javascript Developer. I love Open Source, NodeJS, React and React Native."
+  "profile": {
+    "title": "Profile & Objective",
+    "content":
+      "I'm a full-stack Javascript Developer. I love Open Source, Node.js, React and React Native."
   },
-  "education"  : {
-    "title" : "Education",
-    "items" : [
+  "education": {
+    "title": "Education",
+    "items": [
       {
-        "subtitle"    : "Master's degree in engineering",
-        "title"       : "Ecole Centrale de Lille",
-        "description" : "Top 10 french engineering school. Major in IT. Web and Mobile developer at the school's Junior Entreprise.",
-        "startYear"   : "2013",
-        "endYear"     : "2016"
+        "subtitle": "Master's degree in engineering",
+        "title": "Ecole Centrale de Lille",
+        "description":
+          "Top 10 french engineering school. Major in IT. Web and Mobile developer at the school's Junior Entreprise.",
+        "startYear": "2013",
+        "endYear": "2016"
       }
     ]
   },
-  "experience" : {
-    "title" : "Experience",
-    "items" : [
+  "experience": {
+    "title": "Experience",
+    "items": [
       {
-        "subtitle"    : "Yumii",
-        "title"       : "Full-stack developer",
-        "description" : "Development of a web application, mobile applications and a companion robot named Cutii. Technologies : React, Redux, React Native, NodeJS, WebRTC, Electron.",
-        "startYear"   : "2016"
+        "subtitle": "Shine",
+        "title": "Full-stack developer",
+        "description":
+          "Development of the first mobile banking app for freelancers. Technologies : React, React Native, Node.js, GraphQL.",
+        "startYear": "2018"
       },
       {
-        "subtitle"    : "Smile",
-        "title"       : "Apprentice IT engineer",
-        "description" : "One year apprenticeship developing Ionic mobile and Java applications. Technologies : Ionic, Angular, Java.",
-        "startYear"   : "2015",
-        "endYear"     : "2016"
+        "subtitle": "Yumii",
+        "title": "Full-stack developer",
+        "description":
+          "Development of a web application, mobile applications and a companion robot named Cutii. Technologies : React, Redux, React Native, NodeJS, WebRTC, Electron.",
+        "startYear": "2016",
+        "endYear": "2018"
       },
       {
-        "subtitle"    : "Movienight",
-        "title"       : "Full-stack developer",
-        "description" : "Development of the Movienight mobile application, back-end and back-office. Technologies : Ionic, Angular, NodeJS, CouchDB.",
-        "startYear"   : "2016",
-        "endYear"     : "2016"
+        "subtitle": "Smile",
+        "title": "Apprentice IT engineer",
+        "description":
+          "One year apprenticeship developing Ionic mobile and Java applications. Technologies : Ionic, Angular, Java.",
+        "startYear": "2015",
+        "endYear": "2016"
       },
       {
-        "subtitle"    : "Dside",
-        "title"       : "Co-founder",
-        "description" : "Co-founding and development of the Dside mobile applications for both iOS and Android. Technologies : Android, Swift, NodeJS.",
-        "startYear"   : "2015",
-        "endYear"     : "2016"
+        "subtitle": "Movienight",
+        "title": "Full-stack developer",
+        "description":
+          "Development of the Movienight mobile application, back-end and back-office. Technologies : Ionic, Angular, Node.js, CouchDB.",
+        "startYear": "2016",
+        "endYear": "2016"
       },
       {
-        "subtitle"    : "Worldline",
-        "title"       : "Mobile developer intern",
-        "description" : "3 months internship as a mobile developer. Development of a contact-less payment application. Technologies : Android, Swift, iBeacon",
-        "startYear"   : "2015",
-        "endYear"     : "2015"
+        "subtitle": "Dside",
+        "title": "Co-founder",
+        "description":
+          "Co-founding and development of the Dside mobile applications for both iOS and Android. Technologies : Android, Swift, Node.js.",
+        "startYear": "2015",
+        "endYear": "2016"
+      },
+      {
+        "subtitle": "Worldline",
+        "title": "Mobile developer intern",
+        "description":
+          "3 months internship as a mobile developer. Development of a contact-less payment application. Technologies : Android, Swift, iBeacon",
+        "startYear": "2015",
+        "endYear": "2015"
       }
     ]
   },
-  "skills" : {
-    "title" : "Technical skills",
-    "items" : [
-      "Node.js",
-      "React",
-      "React Native",
-      "Electron",
-      "WebRTC",
-      "RethinkDB"
-    ]
+  "skills": {
+    "title": "Technical skills",
+    "items": ["Node.js", "React", "React Native", "Electron", "GraphQL", "WebRTC"]
   },
-  "credits" : {
-    "label"        : "Powered by",
-    "technologies" : ["Next.js", "React", "styled-components", "Font Awesome"]
+  "credits": {
+    "label": "Powered by",
+    "technologies": ["Next.js", "React", "styled-components", "Font Awesome"]
   }
 }
